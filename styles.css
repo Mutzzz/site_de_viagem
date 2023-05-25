@@ -1,0 +1,262 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 16px 0px;
+    background-color: rgb(255, 255, 255);
+    color: #e7400d;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container {
+    font-family: 'Roboto Slab', serif;
+    max-width: 1366px;
+    width: 100%;
+    margin: 0 auto; 
+    padding: 0px;
+
+
+    
+}
+
+#top img{
+    width: 1366px;
+    display: block;
+    text-align: center;
+}
+
+.departing,
+.arriving {
+    
+    width: 300px;
+    height: 35px;
+    padding: 0px;
+    margin: 10px;
+}
+
+.to p{
+    position: relative;
+    left: 360px;
+    bottom: 100px;
+}
+
+.departing{
+    position: relative;
+    left: 290px;
+}
+
+.arriving {
+    position: relative;
+    left: 650px;
+    bottom: 104px;
+}
+
+.buscar{
+    position: relative;
+    left: 300px;
+    bottom: 80px;
+}
+
+#abas,
+#formulario p,
+#formulario h2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+    margin: 15px 300px;    
+}
+
+
+.flight{
+    background-color:#e7400d;
+    color: #fff;
+    padding: 10px   100px;
+    margin: 10px;
+}
+
+.hotel {
+    background-color:#000000;
+    color: #fff;
+    padding: 10px   100px;
+    margin: 10px;
+}
+
+.rental {
+    background-color:#000000;
+    color: #fff;
+    padding: 10px   100px;
+    margin: 10px;
+}
+
+#abas{
+    position: relative;
+    bottom: 500px;
+    box-sizing: border-box;
+    
+}
+
+#formulario{
+    background-color: #ffffff;
+    border: 20px solid #ffffff;
+    margin: 0px 100px;
+    padding: 0px;
+    border-radius: 20px;
+    position: relative;
+    bottom: 500px;
+}
+
+.buscar button{
+    background-color: #ff3c00e1;
+    padding: 10px 5px;
+    
+}
+
+#coluna img,
+#coluna2 img,
+#coluna3 img {
+    width: 100%;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    display: flex;
+    padding: 0px;
+}
+
+.viagens{
+    column-count: 4;
+    column-gap: 10px;
+    
+}
+
+.nature{
+    column-count: 2;
+    column-gap: 10px;
+}
+
+.culture{
+    column-count: 2;
+    column-gap: 10px;
+}
+
+h2{
+    margin-bottom: 10px;
+}
+
+#offers{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    }
+
+#offers form{
+    background-color: #797979;
+    border: 20px solid #797979;
+    padding: 0px;
+    border-radius: 20px;
+}
+
+.email{
+    padding: 10px 500px;
+}
+
+#offers form p,
+#offers form h2{
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.subs button{
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #ff3c00b4;
+    color: #fff ;
+}
+
+#contatos{
+    margin-left: 78px;
+    margin-top: 20px;
+}
+
+.chicago {
+    display: inline-block;
+    background-image: url(imagens/maps-and-flags.png);
+    background-size: 16px 16px; 
+    background-repeat: no-repeat;
+    padding-left: 20px;
+    font-size: 14px; 
+}
+
+.phone {
+    display: inline-block;
+    background-image: url(imagens/phone-receiver-silhouette.png);
+    background-size: 16px 16px; 
+    background-repeat: no-repeat;
+    padding-left: 20px;
+    font-size: 14px; 
+}
+
+.contact-mail {
+    display: inline-block;
+    background-image: url(imagens/email\ \(1\).png);
+    background-size: 16px 16px; 
+    background-repeat: no-repeat;
+    padding-left: 20px;
+    font-size: 14px; 
+}
+
+.redes{
+    color: #8a8a8a;
+    display: flex;
+    justify-content: center;
+}
+
+.redes-sociais{
+    display: flex;
+    justify-content: center;
+}
+
+.navigation a{
+    text-decoration: none;
+    color: #e7400d;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
